@@ -38,6 +38,8 @@ def get_sftp_files():
 
 
 # def del_sftp_files(files):
+#     for f in files:
+#         os.remove(f)
 #     with sftp_connection as conn:
 #         for f in file:
 #             conn.execute('rm -f {0}/{1}'.format(file_path, f))
