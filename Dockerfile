@@ -6,6 +6,7 @@ RUN pip install -r requirements.txt
 RUN mkdir etl && mkdir /etl/visitas/
 COPY . ./etl
 COPY visitas/ /etl/visitas
+COPY logs/ /etl/logs
 
 WORKDIR etl/
 

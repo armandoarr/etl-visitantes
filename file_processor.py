@@ -16,9 +16,6 @@ file_path = '/home/vinkOS/archivosVisitas'
 
 # sftp_connection = pysftp.Connection(hostname=hostname, username=username, password=password)
 
-#logging.basicConfig(level=logging.INFO,
-#                    filename='procesador.log', filemode='w',
-#                    format='%(asctime)s %(message)s')
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.info('this is information')

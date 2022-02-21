@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 import sqlalchemy
 
-logging.basicConfig(filename='mysql.log')
+logging.basicConfig(filename='logs/mysql.log')
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 
